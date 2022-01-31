@@ -1,0 +1,73 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: 'Kumbh Sans', sans-serif;
+  background-color: hsl(185, 75%, 39%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+h2{
+  font-weight: 700;
+}
+p{
+  padding: 0.5rem 0;
+}
+p, span{
+  font-weight: 400;
+  color: hsl(227, 10%, 46%);
+}
+
+.main{
+  background-color:white;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.pattern{
+  margin: 0;
+  border-radius: 1rem 1rem 0 0;
+}
+.victor{
+  border-radius: 50%;
+  border: 5px solid white;
+  position: absolute;
+  top: 28%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 100%;
+}
+.lower{
+  padding-top: 4.5rem;
+}
+.content{
+  padding: 2rem 2.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.attribution {
+  margin-top: 5rem;
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+/*.top-img{
+  transform: rotate(5deg);
+  position: absolute;
+  bottom: 50%;
+  right: 40%;
+}
+.bottom-img{
+  position:absolute;
+  bottom: -200%;
+  z-index: -999;
+
+}*/
